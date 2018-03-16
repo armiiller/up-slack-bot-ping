@@ -7,6 +7,7 @@ It is meant to run serverless using AWS [API Gateway](https://aws.amazon.com/api
 ## Building & Deployment
 
 `npm install`
+
 `up deploy production`
 
 ## Security
