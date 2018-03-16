@@ -1,4 +1,4 @@
-#Ping Slack Bot
+# Ping Slack Bot
 
 This is an ultra simple slack bot that checks how long it takes a website to respond.
 
