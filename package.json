@@ -1,0 +1,32 @@
+{
+  "name": "up-slack-bot-ping",
+  "version": "1.0.0",
+  "description": "Slack bot that pings a url. Built using Up & Express.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armiiller/up-slack-bot-ping.git"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "up",
+    "express",
+    "ping"
+  ],
+  "author": "Austin Miller <austinrmiller1991@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/armiiller/up-slack-bot-ping/issues"
+  },
+  "homepage": "https://github.com/armiiller/up-slack-bot-ping#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "q": "^1.5.1",
+    "restler": "^3.4.0"
+  }
+}
