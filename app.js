@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post("/", function(req, res, next){
   //https://api.slack.com/slash-commands#validating_the_command
-  if(TOKEN && token !== TOKEN){
+  if(TOKEN && req.body.token !== TOKEN){
     res.status(403).send("Please go away!");
     return;
   }
